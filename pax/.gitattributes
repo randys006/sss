@@ -1,0 +1,6 @@
+## Set default file mode to text and only use LF (no CRLF)
+* text eol=lf
+
+## Set binary mode for ALL applicable extensions
+## Note: to check which files will be modified, run git add -u
+*.png binary

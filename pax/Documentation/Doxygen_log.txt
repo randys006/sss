@@ -1,0 +1,463 @@
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:992: warning: missing argument after \class.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:1017: warning: missing argument after \class.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:471: warning: documentation for unknown define PAX_LOG The main logging macro. found.
+
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:242: warning: Compound sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2600: warning: Compound sss::pax::pax_float3 is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2510: warning: Compound sss::pax::ValueSpaceStatic is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2715: warning: Compound sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:198: warning: Member pax_ArgvType (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:199: warning: Member pax_T(x) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:200: warning: Member pax_char (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:201: warning: Member pax_filechar (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:202: warning: Member pax_filestring (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:203: warning: Member pax_strcmp (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:204: warning: Member pax_stricmp (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:205: warning: Member pax_strncmp (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:206: warning: Member pax_strnicmp (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:207: warning: Member pax_strncat (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:208: warning: Member pax_strlen (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:209: warning: Member pax_strcpy (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:210: warning: Member pax_strncpy (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:211: warning: Member pax_sprintf (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:212: warning: Member pax_open (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:213: warning: Member _open (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:214: warning: Member pax_remove (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:215: warning: Member pax_getcwd (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:216: warning: Member pax_lseek (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:217: warning: Member pax_read (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:218: warning: Member pax_write (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:219: warning: Member pax_close (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:220: warning: Member pax_stringstream (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:221: warning: Member pax_cout (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:222: warning: Member pax_cerr (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:223: warning: Member pax_mkdir(a, b) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:224: warning: Member pax_stat (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:225: warning: Member pax_ifdir (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:226: warning: Member pax_nullfile (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:227: warning: Member pax_usleep(us) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:228: warning: Member _L(str) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:230: warning: Member O_BINARY (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:231: warning: Member O_TEXT (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:232: warning: Member _O_TRUNC (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:499: warning: Member PAX_MIN(x, y) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:500: warning: Member PAX_MAX(x, y) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:1672: warning: Member GETVAL_DEFAULTSKIP (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2524: warning: Member PAX_VALUE_SPACE_DATA (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2929: warning: Member XX(name) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3471: warning: Member CHUNK_LEN (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3604: warning: Member verbosityLevel (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:448: warning: Member PAX_LOG_TAG (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:452: warning: Member PAX_PAD0 (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:456: warning: Member PAX_PAD1 (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:460: warning: Member PAX_PAD2 (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:464: warning: Member PAX_PAD3 (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:468: warning: Member PAX_PAD4 (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:469: warning: Member PAX_LOG(level, chain) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:477: warning: Member PAX_LOG_ERROR(level, chain) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:482: warning: Member PAX_LOG_ERRNO(level, chain) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:487: warning: Member PAX_LOG_WARN(level, chain) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:492: warning: Member PAX_LOGX(level, chain) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:239: warning: Member paxTypes_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:260: warning: Member rasterFileBasePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:261: warning: Member rasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:930: warning: Member metaLocation_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:345: warning: Member skipFlags (enumeration) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:117: warning: Member PAX_VERSION (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:118: warning: Member PAX_DATE[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:279: warning: Member PAX_MAX_METADATA_STRING_LENGTH (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:280: warning: Member MIN_PAX_LENGTH (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:410: warning: Member METATYPES (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:411: warning: Member METATYPE_MAX_TAG_LEN (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:412: warning: Member METATYPE_COMMENT_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:413: warning: Member METATYPE_INVALID_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:414: warning: Member METATYPE_FLOAT_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:415: warning: Member METATYPE_STRING_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:416: warning: Member METATYPE_DOUBLE_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:417: warning: Member METATYPE_INT64_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:418: warning: Member METATYPE_UINT64_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:419: warning: Member METATYPE_INT32_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:420: warning: Member METATYPE_UINT32_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:421: warning: Member METATYPE_INT16_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:422: warning: Member METATYPE_UINT16_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:423: warning: Member METATYPE_INT8_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:424: warning: Member METATYPE_UINT8_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:432: warning: Member METAARRAYINDEXES (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:433: warning: Member METAARRAYINDEX_MAX_TAG_LEN (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:434: warning: Member METAARRAYINDEX_FIRST_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:435: warning: Member METAARRAYINDEX_SECOND_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:436: warning: Member METAARRAYINDEX_THIRD_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:437: warning: Member METAARRAYINDEX_FOURTH_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:279: warning: Member PAX_MAX_METADATA_STRING_LENGTH (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:280: warning: Member MIN_PAX_LENGTH (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:410: warning: Member METATYPES (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:411: warning: Member METATYPE_MAX_TAG_LEN (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:412: warning: Member METATYPE_COMMENT_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:413: warning: Member METATYPE_INVALID_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:414: warning: Member METATYPE_FLOAT_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:415: warning: Member METATYPE_STRING_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:416: warning: Member METATYPE_DOUBLE_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:417: warning: Member METATYPE_INT64_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:418: warning: Member METATYPE_UINT64_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:419: warning: Member METATYPE_INT32_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:420: warning: Member METATYPE_UINT32_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:421: warning: Member METATYPE_INT16_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:422: warning: Member METATYPE_UINT16_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:423: warning: Member METATYPE_INT8_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:424: warning: Member METATYPE_UINT8_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:432: warning: Member METAARRAYINDEXES (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:433: warning: Member METAARRAYINDEX_MAX_TAG_LEN (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:434: warning: Member METAARRAYINDEX_FIRST_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:435: warning: Member METAARRAYINDEX_SECOND_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:436: warning: Member METAARRAYINDEX_THIRD_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:437: warning: Member METAARRAYINDEX_FOURTH_TAG[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2560: warning: Member X(name, val, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2568: warning: Member X(name, val, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2578: warning: Member X(name, val, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2606: warning: Member PAX_TYPE_DATA (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2652: warning: Member X(name, val, bpv, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2753: warning: Member X(name, val, bpv, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2885: warning: Member X(name, val, bpv, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2908: warning: Member X(name, val, bpv, VPE) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2930: warning: Member X(name, val, bpv, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3902: warning: Member X(name, val, bpv, vpe) (macro definition) of file pax.h is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2653: warning: Member paxTypes (enumeration) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2594: warning: Member ValueSpace (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:936: warning: Member value_space_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:936: warning: Member vpe_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2603: warning: Member pax_float3_t (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2658: warning: Member csingle (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2659: warning: Member cdouble (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2661: warning: Member floatRasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2662: warning: Member floatRasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2663: warning: Member charRasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2664: warning: Member charRasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2665: warning: Member ucharRasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2666: warning: Member ucharRasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2667: warning: Member float3RasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2668: warning: Member float3RasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:239: warning: Member paxTypes_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:260: warning: Member rasterFileBasePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:261: warning: Member rasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:930: warning: Member metaLocation_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:345: warning: Member skipFlags (enumeration) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:117: warning: Member PAX_VERSION (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:118: warning: Member PAX_DATE[] (variable) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2653: warning: Member paxTypes (enumeration) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2594: warning: Member ValueSpace (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:936: warning: Member value_space_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:936: warning: Member vpe_e (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2603: warning: Member pax_float3_t (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2658: warning: Member csingle (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2659: warning: Member cdouble (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2661: warning: Member floatRasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2662: warning: Member floatRasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2663: warning: Member charRasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2664: warning: Member charRasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2665: warning: Member ucharRasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2666: warning: Member ucharRasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2667: warning: Member float3RasterFile (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2668: warning: Member float3RasterFilePtr (typedef) of namespace sss::pax is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:1503: warning: argument 'raster' of command @param is not found in the argument list of BufMan::setLoc(const paxMetaLoc_t loc, const paxMetaLoc_t index)
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:1507: warning: The following parameter of sss::pax::BufMan::setLoc(const paxMetaLoc_t loc, const paxMetaLoc_t index) is not documented:
+  parameter 'loc'
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:1265: warning: Member zero() (function) of class sss::pax::meta is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2602: warning: Member operator==(const pax_float3 &rt) (function) of class sss::pax::pax_float3 is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2601: warning: Member x (variable) of class sss::pax::pax_float3 is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2601: warning: Member y (variable) of class sss::pax::pax_float3 is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2601: warning: Member z (variable) of class sss::pax::pax_float3 is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:857: warning: The following parameter of sss::pax::PaxArray::PaxArray(T *buf, const uint64_t len) is not documented:
+  parameter 'buf'
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:812: warning: argument 'dimension' of command @param is not found in the argument list of PaxStatic::getMetaArrayIndexTag(const uint32_t index)
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:816: warning: The following parameter of sss::pax::PaxStatic::getMetaArrayIndexTag(const uint32_t index) is not documented:
+  parameter 'index'
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4039: warning: Member rasterFile(int32_t sequential, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4040: warning: Member rasterFile(uint32_t sequential, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4041: warning: Member rasterFile(uint64_t sequential, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4042: warning: Member rasterFile(int32_t sequential, int32_t strided=1) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4043: warning: Member rasterFile(uint32_t sequential, uint32_t strided=1) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4044: warning: Member rasterFile(uint64_t sequential, uint32_t strided=1) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4045: warning: Member rasterFile(int32_t sequential, int32_t strided, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4046: warning: Member rasterFile(uint32_t sequential, uint32_t strided, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4047: warning: Member rasterFile(uint64_t sequential, uint32_t strided, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4060: warning: Member reset() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4075: warning: Member init(uint32_t sequential, uint32_t strided=1, void *buf=NULL) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4115: warning: Member init(uint32_t sequential, void *buf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4133: warning: Member addMeta(std::string name, meta_t meta, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4150: warning: Member addMeta(metaLocation_e loc, std::string name, meta_t meta) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4159: warning: Member addComment(meta_t meta, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4162: warning: Member addComment(metaLocation_e loc, meta_t meta) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4171: warning: Member addComment(std::string comment, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4191: warning: Member addComment(metaLocation_e loc, std::string comment) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4200: warning: Member addMetaVal(std::string name, std::string data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4221: warning: Member addMetaVal(metaLocation_e loc, std::string name, std::string data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4230: warning: Member addMetaVal(std::string name, float data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4248: warning: Member addMetaVal(metaLocation_e loc, std::string name, float data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4257: warning: Member addMetaVal(std::string name, double data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4275: warning: Member addMetaVal(metaLocation_e loc, std::string name, double data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4284: warning: Member addMetaVal(std::string name, uint64_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN, paxMetaDataTypes_e type=paxMetaDataTypes::paxUint64) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4302: warning: Member addMetaVal(std::string name, uint32_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4306: warning: Member addMetaVal(std::string name, uint16_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4310: warning: Member addMetaVal(std::string name, uint8_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4314: warning: Member addMetaVal(metaLocation_e loc, std::string name, uint64_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4317: warning: Member addMetaVal(metaLocation_e loc, std::string name, uint32_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4320: warning: Member addMetaVal(metaLocation_e loc, std::string name, uint16_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4323: warning: Member addMetaVal(metaLocation_e loc, std::string name, uint8_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4332: warning: Member addMetaVal(std::string name, int64_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN, paxMetaDataTypes_e type=paxMetaDataTypes::paxInt64) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4350: warning: Member addMetaVal(std::string name, int32_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4354: warning: Member addMetaVal(std::string name, int16_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4358: warning: Member addMetaVal(std::string name, int8_t data, metaLocation_e loc=metaLocation_e::LOC_UNKNOWN) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4362: warning: Member addMetaIntVal(metaLocation_e loc, std::string name, int64_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4365: warning: Member addMetaIntVal(metaLocation_e loc, std::string name, int32_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4368: warning: Member addMetaIntVal(metaLocation_e loc, std::string name, int16_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4371: warning: Member addMetaIntVal(metaLocation_e loc, std::string name, int8_t data) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4380: warning: Member vpe() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4389: warning: Member bpv() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4398: warning: Member datalen() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4407: warning: Member getTypeName() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4416: warning: Member byteToFloatData() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4435: warning: Member floatToByteData() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4460: warning: Member toPGM(int pgmType=5) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4536: warning: Member writeToPGMFile(std::string fileName, int pgmType=5) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4560: warning: Member import(pax_filestring fileName) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4584: warning: Member import(paxBufPtr inBuf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4593: warning: Member import_copy(const unsigned char *inBuf, size_t length) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4605: warning: Member import(unsigned char *inBuf, size_t length) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4614: warning: Member import_copy(const char *inBuf, size_t length) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4626: warning: Member import(char *inBuf, size_t length) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4696: warning: Member writeMeta(pax_stringstream &ss, std::vector< std::pair< std::string, meta_t >> &metavec) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4797: warning: Member writeToBuffer(paxBufPtr &outBuf) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4869: warning: Member writeToFile(pax_filestring fileName) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4883: warning: Member buf() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4895: warning: Member value(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4902: warning: Member floatValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4903: warning: Member doubleValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4904: warning: Member charValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4905: warning: Member shortValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4906: warning: Member intValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4907: warning: Member longValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4908: warning: Member ucharValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4909: warning: Member ushortValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4910: warning: Member uintValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4911: warning: Member ulongValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4912: warning: Member csingleValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4913: warning: Member cdoubleValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4914: warning: Member cfloat3ValXY(uint64_t x, uint64_t y=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4916: warning: Member floatValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4917: warning: Member doubleValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4918: warning: Member charValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4919: warning: Member shortValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4920: warning: Member intValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4921: warning: Member longValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4922: warning: Member ucharValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4923: warning: Member ushortValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4924: warning: Member uintValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4925: warning: Member ulongValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4926: warning: Member csingleValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4927: warning: Member cdoubleValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4928: warning: Member cfloat3ValRC(uint64_t r, uint64_t c=0) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4951: warning: Member reportEOF() (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4980: warning: Member operator[](std::string key) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4983: warning: Member operator()(std::string key) (function) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4991: warning: Member _buf (variable) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4992: warning: Member _junk[32] (variable) of class sss::pax::rasterFile is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2730: warning: Member rasterFileBase(paxTypes_e dataType) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2736: warning: Member getType() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2949: warning: Member getNumSequential() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2959: warning: Member getNumStrided() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2969: warning: Member getNumElements() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2979: warning: Member getNumValues() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2989: warning: Member importedLength() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2999: warning: Member meta() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3009: warning: Member getMetaType(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3031: warning: Member getMetaFloat(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3067: warning: Member getMetaFloat(std::string key, std::vector< uint32_t > &indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3107: warning: Member getMetaFloat(std::string key, std::initializer_list< uint32_t > list) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3118: warning: Member getMetaDouble(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3152: warning: Member getMetaDouble(std::string key, std::vector< uint32_t > &indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3189: warning: Member getMetaDouble(std::string key, std::initializer_list< uint32_t > list) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3201: warning: Member getMetaInteger(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3241: warning: Member getMetaInteger(std::string key, std::vector< uint32_t > &indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3283: warning: Member getMetaInteger(std::string key, std::initializer_list< uint32_t > list) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3293: warning: Member getMetaInt64(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3294: warning: Member getMetaUint64(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3295: warning: Member getMetaInt32(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3296: warning: Member getMetaUint32(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3297: warning: Member getMetaInt16(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3298: warning: Member getMetaUint16(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3299: warning: Member getMetaInt8(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3300: warning: Member getMetaUint8(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3303: warning: Member getMetaInt64(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3304: warning: Member getMetaUint64(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3305: warning: Member getMetaInt32(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3306: warning: Member getMetaUint32(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3307: warning: Member getMetaInt16(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3308: warning: Member getMetaUint16(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3309: warning: Member getMetaInt8(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3310: warning: Member getMetaUint8(std::string key, std::vector< uint32_t > indices) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3327: warning: Member getMetaString(std::string key) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3592: warning: Member writeToBuffer(paxBufPtr &outBuf) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3602: warning: Member importHeader(BufMan &buf, int32_t &dataLen, bool fastImport=false) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3791: warning: Member preview(pax_filestring fileName) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3847: warning: Member preview(paxBufPtr inBuf) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3969: warning: Member getMetaRef() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3980: warning: Member getMetaVecs() (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2745: warning: Member isPaxType(int32_t t) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2768: warning: Member validatePaxTag(char *&pos, paxTypes_e &type, float &version) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2832: warning: Member getPaxType(int32_t t) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2843: warning: Member getPaxFileType(const std::string &path) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2857: warning: Member getPaxFileType(paxBufPtr bufPtr, float *version=NULL) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2878: warning: Member getVPE(paxTypes_e e) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2901: warning: Member getBPV(paxTypes_e e) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2922: warning: Member getTypeName(paxTypes_e e) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3347: warning: Member getFloatData(rasterFileBase *paxIn) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3373: warning: Member isDirExist(const std::string &path) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3388: warning: Member makePath(const std::string &path) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3429: warning: Member writeToFile(std::ostringstream &oss, pax_filestring fileName) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3442: warning: Member writeToFile(paxBufPtr &buf, pax_filestring fileName) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3472: warning: Member readFileChunk(pax_filestring fileName, int nChunk=0) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3540: warning: Member readFile(pax_filestring fileName) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3776: warning: Member baseImport(char *buf, size_t len) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3877: warning: Member importMultiple(size_t bufCount, paxBufPtr bufPtr) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3890: warning: Member importMultiple(std::vector< paxTypes_e > types, paxBufPtr bufPtr) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3925: warning: Member writeMultiple(std::vector< rasterFileBase * > paxVec) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:3951: warning: Member writeMultiple(std::vector< std::shared_ptr< rasterFileBase >> paxVec) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4000: warning: Member copyMeta(rasterFileBase &dest, rasterFileBase &src) (function) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4011: warning: Member _dataType (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4012: warning: Member _version (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4013: warning: Member _importedLength (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4014: warning: Member _numValues (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4015: warning: Member _numSequential (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4016: warning: Member _numStrided (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4017: warning: Member _meta (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4018: warning: Member _metaLoc (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:4019: warning: Member _metaLocCount[metaLocation_e::LOC_COUNT] (variable) of class sss::pax::rasterFileBase is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:519: warning: Member Swapper(char *null) (function) of class sss::pax::Swapper is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:521: warning: Member restore() (function) of class sss::pax::Swapper is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:528: warning: Member _old (variable) of class sss::pax::Swapper is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:529: warning: Member _null (variable) of class sss::pax::Swapper is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:538: warning: Member TempNull(char *null) (function) of class sss::pax::TempNull is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:519: warning: Member Swapper(char *null) (function) of class Swapper<'\0'> is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:521: warning: Member restore() (function) of class Swapper<'\0'> is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:528: warning: Member _old (variable) of class Swapper<'\0'> is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:529: warning: Member _null (variable) of class Swapper<'\0'> is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2562: warning: Member value_space (enumeration) of class sss::pax::ValueSpaceStatic is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2570: warning: Member vpe (enumeration) of class sss::pax::ValueSpaceStatic is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2589: warning: Member getVpe() (function) of class sss::pax::ValueSpaceStatic is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2576: warning: Member lookupVpe(enum value_space vs) (function) of class sss::pax::ValueSpaceStatic is not documented.
+C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h:2592: warning: Member _vs (variable) of class sss::pax::ValueSpSearching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax
+Reading and parsing tag files
+Parsing files
+Preprocessing C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/driver.cpp...
+Parsing file C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/driver.cpp...
+Preprocessing C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h...
+Parsing file C:/Users/randy/Documents/repos/sss-trunk/sss/pax/pax/pax.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file pax.h...
+Generating file documentation...
+Generating docs for file pax.h...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating namespace index...
+Generating docs for namespace sss
+Generating docs for namespace sss::pax
+Generating docs for compound sss::pax::BufMan...
+Generating docs for compound sss::pax::meta...
+Generating docs for compound sss::pax::Pax...
+Generating docs for compound sss::pax::pax_float3...
+Generating docs for compound sss::pax::PaxArray...
+Generating docs for compound sss::pax::PaxBuf...
+Generating docs for compound sss::pax::PaxHeader...
+Generating docs for compound sss::pax::PaxMeta...
+Generating docs for compound sss::pax::paxMeta_td...
+Generating docs for compound sss::pax::PaxMetaLoc...
+Generating docs for compound sss::pax::PaxScalar...
+Generating docs for compound sss::pax::PaxStatic...
+Generating docs for compound sss::pax::PaxVector...
+Generating docs for compound sss::pax::rasterFile...
+Generating docs for compound sss::pax::rasterFileBase...
+Generating docs for compound sss::pax::Swapper...
+Generating docs for compound sss::pax::TempNull...
+Generating docs for compound sss::pax::ValueSpaceStatic...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+lookup cache used 902/65536 hits=13489 misses=915
+finished...
+aceStatic is not documented.
