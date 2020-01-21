@@ -2255,7 +2255,7 @@ if(PaxStatic::getVerbosity() >= level) {                                        
             meta1.name  = name;
             ++_metaIdx;
 
-            return std::pair<std::string, meta_t>(name, meta1);
+            return std::move(std::pair<std::string, meta_t>{name, meta1});
 
         }   // std::pair <std::string, meta_t>&& getMeta() {
 
