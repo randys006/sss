@@ -22,6 +22,7 @@ namespace paxmstest
             floatRasterFile floatFile{ 2, 2, static_cast<void*>(floatData.data()) };
             float piVal = 3.1416f;
             floatFile.addMetaVal("pi", piVal);
+            Assert::AreEqual(piVal,         floatFile.getMetaFloat("pi"));
 
             string floatFileName{ "floatFile.pax" };
             paxBufPtr floatBuf;
@@ -39,17 +40,17 @@ namespace paxmstest
             Assert::AreEqual(importRet, static_cast<int>(PAX_OK));
 
             // verify data was imported correctly
-            Assert::AreEqual(floatInFile.floatValXY(0, 0), 158.98166f);
-            Assert::AreEqual(floatInFile.floatValXY(1, 0), 171.61903f);
-            Assert::AreEqual(floatInFile.floatValRC(1, 0), 160.06989f);
-            Assert::AreEqual(floatInFile.floatValRC(1, 1), 148.83504f);
-            Assert::AreEqual(floatInFile.getMetaFloat("pi"), piVal);
+            Assert::AreEqual(158.98166f,    floatInFile.floatValXY(0, 0));
+            Assert::AreEqual(171.61903f,    floatInFile.floatValXY(1, 0));
+            Assert::AreEqual(160.06989f,    floatInFile.floatValRC(1, 0));
+            Assert::AreEqual(148.83504f,    floatInFile.floatValRC(1, 1));
+            Assert::AreEqual(piVal,         floatInFile.getMetaFloat("pi"));
 
             // tweak values and verify again
             double piPrecise = 3.1415926535897932;
             floatInFile.addMetaVal("pi", piPrecise);    // overwrites the old pi with double type
-            Assert::AreNotEqual(floatInFile.getMetaFloat("pi"), piVal); // getMetaFloat() returns garbage
-            Assert::AreEqual(floatInFile.getMetaDouble("pi"), piPrecise);
+            Assert::AreNotEqual(piVal,  floatInFile.getMetaFloat("pi")); // getMetaFloat() returns garbage
+            Assert::AreEqual(piPrecise,     floatInFile.getMetaDouble("pi"));
         }
 
 	};

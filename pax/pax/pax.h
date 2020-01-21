@@ -1,9 +1,10 @@
 /****************************************************************************************************************
- * @defgroup PAX A C++ library for PAX files
  * @file     pax.h
  * @author   Randy J. Spaulding <randys006@gmail.com>
  * @version  0.1
- *
+ ***********************************************************************************************************/
+/****************************************************************************************************************
+ * @mainpage
  * @section LICENSE
  *
  * This program is free software; you can redistribute it and/or
@@ -102,7 +103,13 @@
 #include <numeric>
 #include <regex>
 #include <unordered_map>
+#include <utility>
 #include <variant>
+
+/************************************************************************************************************
+*@defgroup PAX PAX : a C++17 library for manipulating PAX files
+* @{
+ ***********************************************************************************************************/
 
 /************************************************************************************************************
  * The primary namespace for Spaulding Scientific Solutions
@@ -117,12 +124,10 @@ namespace pax {
 inline constexpr float PAX_VERSION{ 1.00 };
 inline constexpr char   PAX_DATE[]{ "Dec 11, 2019" };
 
-//////////////////////////////////////////////////////////////////////////
-//
-// PAX abstraction layer for cross-platform string support
-// These macros select wide- or normal-char versions and ATL vs standard types
-// With a few extra helper functions, too!
-//
+/********************************************************************************************************
+ * @name PAX_ABSTRACTION cross-platform string support for CRT
+ *******************************************************************************************************/
+///@{
 #ifdef _WIN32
 
 #ifdef UNICODE
@@ -231,15 +236,16 @@ inline constexpr char   PAX_DATE[]{ "Dec 11, 2019" };
 #define O_TEXT 0
 #define _O_TRUNC O_TRUNC
 #endif
+///@}
 
+    enum class paxTypes;
+    typedef paxTypes paxTypes_e;
+    template <paxTypes_e E>
+    class rasterFile;
+    class rasterFileBase;
     class PaxMeta;
     template <typename T>
     class PaxArray;
-    enum class paxTypes;
-    typedef paxTypes paxTypes_e;
-    class rasterFileBase;
-    template <paxTypes_e E>
-    class rasterFile;
 
     using paxMetaRegionEnum_t       = uint32_t;                 ///< Type alias for meta region enum
     using paxMetaLoc_t              = size_t;                   ///< Type alias for meta location
@@ -466,11 +472,11 @@ inline constexpr char   PAX_DATE[]{ "Dec 11, 2019" };
  * @def PAX_PAD4 The tag for PAX logger lines at verbosity 4
  ***********************************************************************************************************/
 #define PAX_PAD4 << "........."
-#define PAX_LOG(level, chain) PAX_LOGX(level, chain)
 /************************************************************************************************************
  * @def PAX_LOG The main logging macro.
  * to expand macros in 'level' we must pass PAX_LOG to another macro that hasn't been defined yet
  ***********************************************************************************************************/
+#define PAX_LOG(level, chain) PAX_LOGX(level, chain)
 /************************************************************************************************************
  * @def PAX_LOG_ERROR Logging macro for errors.
  ***********************************************************************************************************/
@@ -983,13 +989,13 @@ if(PaxStatic::getVerbosity() >= level) {                                        
  *******************************************************************************************************/
     typedef struct meta {
 
-        metaLoc_e      loc;        ///< index of location within file
+        metaLoc_e           loc;        ///< index of location within file
         size_t              index;      ///< index within location
         paxMetaDataTypes_e  type;       ///< metadata type
         uint8_t             num_dims;   ///< number of dimensions. Use num_dims = 0 for scalar data.
 
 /********************************************************************************************************
- * @union
+ * @union <unnamed>
  * for storing scalar/string/etc. data
  *******************************************************************************************************/
         union {
@@ -1014,7 +1020,7 @@ if(PaxStatic::getVerbosity() >= level) {                                        
         uint32_t *          dims;       ///< dimensions array
 
 /********************************************************************************************************
- * @union
+ * @union <unnamed>
  * for storing array data
  *******************************************************************************************************/
         union {
@@ -1042,6 +1048,10 @@ if(PaxStatic::getVerbosity() >= level) {                                        
         meta() :
             loc(LOC_UNKNOWN),
             type{ paxMetaDataTypes_e::paxInvalid },
+            num_dims{ 0 },
+            d{ 0.0 },
+            stripped{ false },
+            ownBuf{ false },
             name(""),
             dims{ NULL },
             buf{ s }
@@ -1055,7 +1065,10 @@ if(PaxStatic::getVerbosity() >= level) {                                        
         meta(const paxMetaDataTypes_e _type, std::initializer_list<uint32_t> list) :
             loc{ LOC_UNKNOWN },
             type{ paxMetaDataTypes_e::paxInvalid },
-            name{ "" }, 
+            num_dims{ 0 },
+            d{ 0.0 },
+            stripped{ false },
+            name{ "" },
             dims{ NULL },
             buf{ s }
         {
@@ -1072,6 +1085,9 @@ if(PaxStatic::getVerbosity() >= level) {                                        
         meta(const paxMetaDataTypes_e _type, std::vector<uint32_t> &_dims) :
             loc{ LOC_UNKNOWN },
             type{ paxMetaDataTypes_e::paxInvalid },
+            num_dims{ 0 },
+            d{ 0.0 },
+            stripped{ false },
             name{ "" },
             dims{ NULL },
             buf{ s }
@@ -1091,6 +1107,9 @@ if(PaxStatic::getVerbosity() >= level) {                                        
         meta(paxMetaDataTypes_e _type, std::initializer_list<uint32_t> list, const void* data) :
             loc(LOC_UNKNOWN),
             type(paxMetaDataTypes_e::paxInvalid),
+            num_dims{ 0 },
+            d{ 0.0 },
+            stripped{ false },
             name(""),
             dims{ NULL },
             buf{ s }
@@ -1109,7 +1128,11 @@ if(PaxStatic::getVerbosity() >= level) {                                        
  *******************************************************************************************************/
         meta(paxMetaDataTypes_e _type, std::vector<uint32_t> &_dims, const void* data) :
             loc(LOC_UNKNOWN),
+            index{ 0 },
             type(paxMetaDataTypes_e::paxInvalid),
+            num_dims{ 0 },
+            d{ 0.0 },
+            stripped{ false },
             name{ "" },
             dims{ NULL },
             buf{ s }
@@ -1654,7 +1677,7 @@ if(PaxStatic::getVerbosity() >= level) {                                        
             char * oldpos = pos;
 
             // LF terminates the junk, so we check for it at the end
-            while (*pos != '#' && *pos != ' ' && *pos != '\t' && *pos != '\r' && *pos != ':' && *pos != '=' && *pos != '[' && *pos != ']' && /*(skipLF ||*/ *pos != '\n'/*)*/) {
+            while (*pos != '#' && *pos != '@' && *pos != ' ' && *pos != '\t' && *pos != '\r' && *pos != ':' && *pos != '=' && *pos != '[' && *pos != ']' && /*(skipLF ||*/ *pos != '\n'/*)*/) {
                 ++pos;
             }
 
@@ -1992,30 +2015,30 @@ if(PaxStatic::getVerbosity() >= level) {                                        
  * Extract an name/metadata pair from the buffer.
  * @return                  pair containing name and meta
  *******************************************************************************************************/
-        std::pair <std::string, meta_t>&& getMeta() {
+        std::pair <std::string, meta_t> getMeta() {
 
             meta_t meta1;
             std::string name;
-            std::pair <std::string, meta_t> badMeta("", meta_t{});
+            static std::pair <std::string, meta_t> badMeta{ "", meta_t{} };
 
             // our current pos should be at the "#" or "##"
-            if ('#' != *_pos) {
-                PAX_LOG_ERROR(1, << "Attempted to extract metadata but no # found.");
-                return std::move(badMeta);
+            if ('#' != *_pos && '@' != *_pos) {
+                PAX_LOG_ERROR(1, << "Attempted to extract metadata but no marker found.");
+                return badMeta;
             }
 
-            char * pos = _pos + 1;
+            char * pos = _pos;
 
-            if ('#' != *pos) {
-              ///////////////////////////////////////////////////////////////////////////
-              // read the comment
-              //
+            if ('#' == *pos) {
+                ///////////////////////////////////////////////////////////////////////////
+                // read the comment
+                //
                 char * eol = strchr(pos, '\n');
 
                 // check for buffer overrun
                 if (eof(eol)) {
                     PAX_LOG_ERROR(1, << "Unexpected EOF reading PAX buffer. This may be expected if previewing a long header.");
-                    return std::move(badMeta);
+                    return badMeta;
                 }
 
                 name = meta::getCommentName(_metaLoc, _metaIdx);
@@ -2039,10 +2062,10 @@ if(PaxStatic::getVerbosity() >= level) {                                        
                 _pos = eol + 1;
 
             } else {
-              ///////////////////////////////////////////////////////////////////////////
-              // metadata
-              //
-                ++pos; // skip the second '#'
+                ///////////////////////////////////////////////////////////////////////////
+                // metadata
+                //
+                ++pos; // skip the marker
                 skipChar('[', pos);  // skip past the opening brace
                 meta1.type = paxMetaDataTypes_e::paxInvalid;
                 char typeTag[METATYPE_MAX_TAG_LEN + 1];
@@ -2075,7 +2098,7 @@ if(PaxStatic::getVerbosity() >= level) {                                        
                     PAX_LOG_ERROR(0, << "Metadata type not found: " << pos);
                     skipLine(_pos);
 
-                    return std::move(badMeta);
+                    return badMeta;
 
                 }
 
@@ -2252,10 +2275,10 @@ if(PaxStatic::getVerbosity() >= level) {                                        
 
             meta1.loc   = _metaLoc;
             meta1.index = _metaIdx;
-            meta1.name  = name;
+            meta1.name  = std::move(name);
             ++_metaIdx;
 
-            return std::move(std::pair<std::string, meta_t>{name, meta1});
+            return { meta1.name, meta1 };
 
         }   // std::pair <std::string, meta_t>&& getMeta() {
 
@@ -2665,7 +2688,10 @@ if(PaxStatic::getVerbosity() >= level) {                                        
       // Note that data such as GFF IQ2 requires separate buffers for REAL and IMAGINARY.
       // BITS is not directly supported, but can be used for packed binary data.
       //    Value space name,     enum,  vpe
-#define PAX_VALUE_SPACE_DATA                                    \
+/************************************************************************************************************
+ * @def PAX_VALUE_SPACE_DATA Conglomerate used with X-macros to generate value_space data
+ ***********************************************************************************************************/
+#define PAX_VALUE_SPACE_DATA                                      \
       /* generic numbers */                                       \
       X(REAL,                   0,    1                         ) \
       X(IMAGINARY,              1,    1                         ) \
@@ -2701,16 +2727,28 @@ if(PaxStatic::getVerbosity() >= level) {                                        
       X(SIX,                  906,    6                         ) \
       X(UNDEFINED,            999,    0                         )
 
+/************************************************************************************************************
+ * @def X X-macro to generate value_space
+ ***********************************************************************************************************/
 #define X(name, val, vpe) eVS_ ## name = val,
 
+/********************************************************************************************************
+* @enum value_space Value space name definitions
+********************************************************************************************************/
         enum value_space {
             PAX_VALUE_SPACE_DATA
         };
 
 #undef X
 
+/************************************************************************************************************
+ * @def X X-macro to generate vpe
+ ***********************************************************************************************************/
 #define X(name, val, vpe) eVPE_ ## name = vpe,
 
+/********************************************************************************************************
+* @enum vpe Values per element for value spaces
+********************************************************************************************************/
         enum vpe {
             PAX_VALUE_SPACE_DATA
         };
@@ -2719,6 +2757,9 @@ if(PaxStatic::getVerbosity() >= level) {                                        
 
         static inline vpe lookupVpe(enum value_space vs) {
 
+/************************************************************************************************************
+ * @def X X-macro to generate cases for lookupVpe
+ ***********************************************************************************************************/
 #define X(name, val, vpe) case eVS_ ## name : return eVPE_ ## name;
 
             switch (vs)
@@ -4024,7 +4065,7 @@ cHaR
             char *buf = bufPtr.get()->data();
             size_t bufLeft = bufPtr->size();
 
-            for (int bufnum = 0; bufnum < bufCount; ++bufnum) {
+            for (size_t bufnum = 0; bufnum < bufCount; ++bufnum) {
               // TODO: import using inheritance
             }
 
@@ -4038,7 +4079,7 @@ cHaR
             char *buf = bufPtr.get()->data();
             size_t bufLeft = bufPtr->size();
 
-            for (int bufnum = 0; bufnum < bufCount; ++bufnum) {
+            for (size_t bufnum = 0; bufnum < bufCount; ++bufnum) {
                 std::shared_ptr<rasterFileBase> baseFile;
 
                 switch (types[bufnum]) {
@@ -4860,7 +4901,7 @@ cHaR
                     continue;
 
                 case paxMetaDataTypes_e::paxString:
-                    ss << "## [" << METATYPE_STRING_TAG << "]   ";
+                    ss << "@ [" << METATYPE_STRING_TAG << "]   ";
                     ss << meta.first << (meta.second.stripped ? " = " : " =") << meta.second.s /*+ skip */ << '\n';
                     continue;
 
@@ -4877,7 +4918,7 @@ cHaR
 
                 pax_stringstream sstypetag;
                 sstypetag << "[" << PaxStatic::getMetaTypeTag(type) << "]      ";
-                ssmeta << "## " << sstypetag.str().substr(0, 11) << meta.first;  // write the type tag and name
+                ssmeta << "@ " << sstypetag.str().substr(0, 11) << meta.first;  // write the type tag and name
 
                 if (meta.second.dimCount() >= 1) {
 
@@ -5148,3 +5189,5 @@ cHaR
 } // namespace pax
 
 } // namespace sss
+
+/** @} */ // end of group PAX
