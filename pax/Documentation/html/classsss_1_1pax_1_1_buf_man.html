@@ -66,9 +66,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8aa09fa77f5514ec6c413eabb462a6db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a8aa09fa77f5514ec6c413eabb462a6db">eof</a> (char *<a class="el" href="classsss_1_1pax_1_1_buf_man.html#a52100c85a4a5cb6ee48cd6c565a62457">pos</a>=NULL)</td></tr>
 <tr class="memdesc:a8aa09fa77f5514ec6c413eabb462a6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests the buffer for end-of-file.  <a href="classsss_1_1pax_1_1_buf_man.html#a8aa09fa77f5514ec6c413eabb462a6db">More...</a><br /></td></tr>
 <tr class="separator:a8aa09fa77f5514ec6c413eabb462a6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4240a0d1bd2d983ad523ecc691f9f284"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a4240a0d1bd2d983ad523ecc691f9f284">setLoc</a> (const <a class="el" href="namespacesss_1_1pax.html#a268ed307fb6855f03c2c1f7ff7b87b98">paxMetaLoc_t</a> loc, const <a class="el" href="namespacesss_1_1pax.html#a268ed307fb6855f03c2c1f7ff7b87b98">paxMetaLoc_t</a> index)</td></tr>
-<tr class="memdesc:a4240a0d1bd2d983ad523ecc691f9f284"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current location and index for storing metadata.  <a href="classsss_1_1pax_1_1_buf_man.html#a4240a0d1bd2d983ad523ecc691f9f284">More...</a><br /></td></tr>
-<tr class="separator:a4240a0d1bd2d983ad523ecc691f9f284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af54c6f67e7c25ba19f7e2d48f661d1e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#af54c6f67e7c25ba19f7e2d48f661d1e3">setLoc</a> (const metaLoc_e loc, const <a class="el" href="namespacesss_1_1pax.html#a268ed307fb6855f03c2c1f7ff7b87b98">paxMetaLoc_t</a> index)</td></tr>
+<tr class="memdesc:af54c6f67e7c25ba19f7e2d48f661d1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current location and index for storing metadata.  <a href="classsss_1_1pax_1_1_buf_man.html#af54c6f67e7c25ba19f7e2d48f661d1e3">More...</a><br /></td></tr>
+<tr class="separator:af54c6f67e7c25ba19f7e2d48f661d1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5081e857e6d367d25c2d5175dcc30bd5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a5081e857e6d367d25c2d5175dcc30bd5">skipLine</a> ()</td></tr>
 <tr class="memdesc:a5081e857e6d367d25c2d5175dcc30bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance the internal buffer past the next LF.  <a href="classsss_1_1pax_1_1_buf_man.html#a5081e857e6d367d25c2d5175dcc30bd5">More...</a><br /></td></tr>
 <tr class="separator:a5081e857e6d367d25c2d5175dcc30bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a11882464bd5107c654b3d7ee625714ce"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a11882464bd5107c654b3d7ee625714ce">getUint8</a> (const <a class="el" href="namespacesss_1_1pax.html#a8c7d62201298077407050d07c4f220de">skipFlags_e</a> skip=GETVAL_DEFAULTSKIP)</td></tr>
 <tr class="memdesc:a11882464bd5107c654b3d7ee625714ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract a delimited uint8 from the internal buffer.  <a href="classsss_1_1pax_1_1_buf_man.html#a11882464bd5107c654b3d7ee625714ce">More...</a><br /></td></tr>
 <tr class="separator:a11882464bd5107c654b3d7ee625714ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad952d5eb4a7cf414d4b6123e07e5d72a"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, <a class="el" href="namespacesss_1_1pax.html#a942576e13f46c13c4e841d466fe5e7ca">meta_t</a> &gt; &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#ad952d5eb4a7cf414d4b6123e07e5d72a">getMeta</a> ()</td></tr>
-<tr class="memdesc:ad952d5eb4a7cf414d4b6123e07e5d72a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract an name/metadata pair from the buffer.  <a href="classsss_1_1pax_1_1_buf_man.html#ad952d5eb4a7cf414d4b6123e07e5d72a">More...</a><br /></td></tr>
-<tr class="separator:ad952d5eb4a7cf414d4b6123e07e5d72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2134d33aff406e4939582bc253a57bf"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, <a class="el" href="namespacesss_1_1pax.html#a942576e13f46c13c4e841d466fe5e7ca">meta_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#ad2134d33aff406e4939582bc253a57bf">getMeta</a> ()</td></tr>
+<tr class="memdesc:ad2134d33aff406e4939582bc253a57bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract an name/metadata pair from the buffer.  <a href="classsss_1_1pax_1_1_buf_man.html#ad2134d33aff406e4939582bc253a57bf">More...</a><br /></td></tr>
+<tr class="separator:ad2134d33aff406e4939582bc253a57bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae610332099167a6d6aec018b29d580fa"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#ae610332099167a6d6aec018b29d580fa">copyData</a> (char *buf, const size_t len)</td></tr>
 <tr class="memdesc:ae610332099167a6d6aec018b29d580fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy binary raster data to the given buffer.  <a href="classsss_1_1pax_1_1_buf_man.html#ae610332099167a6d6aec018b29d580fa">More...</a><br /></td></tr>
 <tr class="separator:ae610332099167a6d6aec018b29d580fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +148,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a002b0306c8461814f033e046eaf99df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance past the next chunk of junk and whitespace.  <a href="classsss_1_1pax_1_1_buf_man.html#a002b0306c8461814f033e046eaf99df7">More...</a><br /></td></tr>
 <tr class="separator:a002b0306c8461814f033e046eaf99df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992611cc7a6a47a10d274d949e251ff4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a992611cc7a6a47a10d274d949e251ff4">skipDelimiter</a> (char *&amp;<a class="el" href="classsss_1_1pax_1_1_buf_man.html#a52100c85a4a5cb6ee48cd6c565a62457">pos</a>, bool skipLF=true)</td></tr>
-<tr class="memdesc:a992611cc7a6a47a10d274d949e251ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance past junk, whitespace, delimiter, whitespace.  <a href="classsss_1_1pax_1_1_buf_man.html#a992611cc7a6a47a10d274d949e251ff4">More...</a><br /></td></tr>
+<tr class="memdesc:a992611cc7a6a47a10d274d949e251ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance past whitespace, delimiter, whitespace.  <a href="classsss_1_1pax_1_1_buf_man.html#a992611cc7a6a47a10d274d949e251ff4">More...</a><br /></td></tr>
 <tr class="separator:a992611cc7a6a47a10d274d949e251ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7964d34ea12eede520387dbe701ccb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a5d7964d34ea12eede520387dbe701ccb">skipChar</a> (const char skipme, char *&amp;<a class="el" href="classsss_1_1pax_1_1_buf_man.html#a52100c85a4a5cb6ee48cd6c565a62457">pos</a>, const bool skipLF=true)</td></tr>
 <tr class="memdesc:a5d7964d34ea12eede520387dbe701ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jump Advance junk, whitespace, specified char, whitespace.  <a href="classsss_1_1pax_1_1_buf_man.html#a5d7964d34ea12eede520387dbe701ccb">More...</a><br /></td></tr>
@@ -172,10 +172,10 @@ Protected Attributes</h2></td></tr>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#aa027034f87385c1436738f6796d74dfd">_len</a></td></tr>
 <tr class="memdesc:aa027034f87385c1436738f6796d74dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current buffer length. <br /></td></tr>
 <tr class="separator:aa027034f87385c1436738f6796d74dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9c76d8fe28d415322c5d0e5f6eba1e6"><td class="memItemLeft" align="right" valign="top"><a id="ac9c76d8fe28d415322c5d0e5f6eba1e6"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#ac9c76d8fe28d415322c5d0e5f6eba1e6">_metaLoc</a></td></tr>
-<tr class="memdesc:ac9c76d8fe28d415322c5d0e5f6eba1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current location for storing metadata. <br /></td></tr>
-<tr class="separator:ac9c76d8fe28d415322c5d0e5f6eba1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd550afdb6dcbc44b8ea6e0d44a0811"><td class="memItemLeft" align="right" valign="top"><a id="a8fd550afdb6dcbc44b8ea6e0d44a0811"></a>
+metaLoc_e&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a8fd550afdb6dcbc44b8ea6e0d44a0811">_metaLoc</a></td></tr>
+<tr class="memdesc:a8fd550afdb6dcbc44b8ea6e0d44a0811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current location for storing metadata. <br /></td></tr>
+<tr class="separator:a8fd550afdb6dcbc44b8ea6e0d44a0811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94895b5a9ad78ffba0cb2a145d6b5715"><td class="memItemLeft" align="right" valign="top"><a id="a94895b5a9ad78ffba0cb2a145d6b5715"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsss_1_1pax_1_1_buf_man.html#a94895b5a9ad78ffba0cb2a145d6b5715">_metaIdx</a></td></tr>
 <tr class="memdesc:a94895b5a9ad78ffba0cb2a145d6b5715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current index for storing metadata within current location. <br /></td></tr>
@@ -667,8 +667,8 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 </div>
 </div>
-<a id="ad952d5eb4a7cf414d4b6123e07e5d72a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad952d5eb4a7cf414d4b6123e07e5d72a">&#9670;&nbsp;</a></span>getMeta()</h2>
+<a id="ad2134d33aff406e4939582bc253a57bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2134d33aff406e4939582bc253a57bf">&#9670;&nbsp;</a></span>getMeta()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +677,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt;std::string, <a class="el" href="namespacesss_1_1pax.html#a942576e13f46c13c4e841d466fe5e7ca">meta_t</a>&gt;&amp;&amp; getMeta </td>
+          <td class="memname">std::pair&lt;std::string, <a class="el" href="namespacesss_1_1pax.html#a942576e13f46c13c4e841d466fe5e7ca">meta_t</a>&gt; getMeta </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -954,8 +954,8 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 
 </div>
 </div>
-<a id="a4240a0d1bd2d983ad523ecc691f9f284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4240a0d1bd2d983ad523ecc691f9f284">&#9670;&nbsp;</a></span>setLoc()</h2>
+<a id="af54c6f67e7c25ba19f7e2d48f661d1e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af54c6f67e7c25ba19f7e2d48f661d1e3">&#9670;&nbsp;</a></span>setLoc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -966,7 +966,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
         <tr>
           <td class="memname">int setLoc </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacesss_1_1pax.html#a268ed307fb6855f03c2c1f7ff7b87b98">paxMetaLoc_t</a>&#160;</td>
+          <td class="paramtype">const metaLoc_e&#160;</td>
           <td class="paramname"><em>loc</em>, </td>
         </tr>
         <tr>
@@ -1086,8 +1086,8 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </table>
 </div><div class="memdoc">
 
-<p>Advance past junk, whitespace, delimiter, whitespace. </p>
-<p>LF's are skipped if the 2nd arg is true. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Advance past whitespace, delimiter, whitespace. </p>
+<p>LF's are also skipped if the 2nd arg is true. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">pos</td><td>Buffer to be advanced </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">skipLF</td><td>optional flag to skip linefeeds </td></tr>
@@ -1336,7 +1336,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 21 2020 11:57:18 for PAX library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 21 2020 15:53:55 for PAX library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

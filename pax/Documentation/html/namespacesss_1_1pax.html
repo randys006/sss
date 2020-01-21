@@ -164,9 +164,9 @@ template&lt;paxTypes_e E&gt; </td></tr>
 <tr class="separator:a45a2f6149f836d11aa43a2a20c0a1b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a141a93ef05e3fbe2c60eab5548d0c572"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespacesss_1_1pax.html#a4b820e188b1afd355314b915b268643c">sss::pax::HEADERLINETYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesss_1_1pax.html#a141a93ef05e3fbe2c60eab5548d0c572">headerLineType_t</a></td></tr>
 <tr class="separator:a141a93ef05e3fbe2c60eab5548d0c572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5df68a00021ce970c72022086811fe2"><td class="memItemLeft" align="right" valign="top"><a id="ab5df68a00021ce970c72022086811fe2"></a>
-typedef enum <a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5">sss::pax::metaLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>metaLocation_e</b></td></tr>
-<tr class="separator:ab5df68a00021ce970c72022086811fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aabe1b5447b68a874f4a134091ad35e"><td class="memItemLeft" align="right" valign="top"><a id="a6aabe1b5447b68a874f4a134091ad35e"></a>
+typedef enum <a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71">sss::pax::metaLoc</a>&#160;</td><td class="memItemRight" valign="bottom"><b>metaLoc_e</b></td></tr>
+<tr class="separator:a6aabe1b5447b68a874f4a134091ad35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a942576e13f46c13c4e841d466fe5e7ca"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structsss_1_1pax_1_1meta.html">sss::pax::meta</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesss_1_1pax.html#a942576e13f46c13c4e841d466fe5e7ca">meta_t</a></td></tr>
 <tr class="separator:a942576e13f46c13c4e841d466fe5e7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -249,22 +249,22 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a4b820e188b1afd355314b915b268643c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743a7897a570bc2b9ee9bc7bf4fff0f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5">metaLocation</a> { <br />
-&#160;&#160;<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a0f1a6708946103486b19eb0cd4cf360e">LOC_UNKNOWN</a> = -1, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a8403ee4a4091456937efe19ff6077f25">LOC_BEGIN</a> = 0, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a7418c5e957f95343fa57ba30370336ee">LOC_AFTER_TAG</a> = 0, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a81d326382bd13c15ad86edd59d36bb32">LOC_AFTER_BPV</a> = 1, 
+<tr class="memitem:a20c46ee04e1814c72515b2c94b084b71"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71">metaLoc</a> { <br />
+&#160;&#160;<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a0f1a6708946103486b19eb0cd4cf360e">LOC_UNKNOWN</a> = -1, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a8403ee4a4091456937efe19ff6077f25">LOC_BEGIN</a> = 0, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a7418c5e957f95343fa57ba30370336ee">LOC_AFTER_TAG</a> = 0, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a81d326382bd13c15ad86edd59d36bb32">LOC_AFTER_BPV</a> = 1, 
 <br />
-&#160;&#160;<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a8f4b3aa6e9bfa0efd2d4f5a0fe4fca73">LOC_AFTER_VPE</a> = 2, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5aa7a202f58b5346d85fab23d0c3b30a7d">LOC_AFTER_SEQ</a> = 3, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5ad0c65434b9b95c7d1c09be28f77b9680">LOC_AFTER_STR1</a> = 4, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a87cd5a52ea56e998207b7e52dae3b5d2">LOC_END</a> = 4, 
+&#160;&#160;<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a8f4b3aa6e9bfa0efd2d4f5a0fe4fca73">LOC_AFTER_VPE</a> = 2, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71aa7a202f58b5346d85fab23d0c3b30a7d">LOC_AFTER_SEQ</a> = 3, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71ad0c65434b9b95c7d1c09be28f77b9680">LOC_AFTER_STR1</a> = 4, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a87cd5a52ea56e998207b7e52dae3b5d2">LOC_END</a> = 4, 
 <br />
-&#160;&#160;<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a797e62f6c41237c21afce8135e224ddb">LOC_DEFAULT</a> = 4, 
-<a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5a1e77ef102e6b6be5253cc8cbfb7fb0c1">LOC_COUNT</a> = 5
+&#160;&#160;<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a797e62f6c41237c21afce8135e224ddb">LOC_DEFAULT</a> = 4, 
+<a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71a1e77ef102e6b6be5253cc8cbfb7fb0c1">LOC_COUNT</a> = 5
 <br />
  }</td></tr>
-<tr class="separator:a743a7897a570bc2b9ee9bc7bf4fff0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a20c46ee04e1814c72515b2c94b084b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -428,38 +428,38 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>float3RasterFilePtr<
 
 </div>
 </div>
-<a id="a743a7897a570bc2b9ee9bc7bf4fff0f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a743a7897a570bc2b9ee9bc7bf4fff0f5">&#9670;&nbsp;</a></span>metaLocation</h2>
+<a id="a20c46ee04e1814c72515b2c94b084b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20c46ee04e1814c72515b2c94b084b71">&#9670;&nbsp;</a></span>metaLoc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespacesss_1_1pax.html#a743a7897a570bc2b9ee9bc7bf4fff0f5">metaLocation</a></td>
+          <td class="memname">enum <a class="el" href="namespacesss_1_1pax.html#a20c46ee04e1814c72515b2c94b084b71">metaLoc</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>standard metadata locations </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a0f1a6708946103486b19eb0cd4cf360e"></a>LOC_UNKNOWN&#160;</td><td class="fielddoc"><p>Unknown or invalid location. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a0f1a6708946103486b19eb0cd4cf360e"></a>LOC_UNKNOWN&#160;</td><td class="fielddoc"><p>Unknown or invalid location. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a8403ee4a4091456937efe19ff6077f25"></a>LOC_BEGIN&#160;</td><td class="fielddoc"><p>Beginning of file. </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a8403ee4a4091456937efe19ff6077f25"></a>LOC_BEGIN&#160;</td><td class="fielddoc"><p>Beginning of file. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a7418c5e957f95343fa57ba30370336ee"></a>LOC_AFTER_TAG&#160;</td><td class="fielddoc"><p>immediately after PAX tag </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a7418c5e957f95343fa57ba30370336ee"></a>LOC_AFTER_TAG&#160;</td><td class="fielddoc"><p>immediately after PAX tag </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a81d326382bd13c15ad86edd59d36bb32"></a>LOC_AFTER_BPV&#160;</td><td class="fielddoc"><p>after bytes per value tag </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a81d326382bd13c15ad86edd59d36bb32"></a>LOC_AFTER_BPV&#160;</td><td class="fielddoc"><p>after bytes per value tag </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a8f4b3aa6e9bfa0efd2d4f5a0fe4fca73"></a>LOC_AFTER_VPE&#160;</td><td class="fielddoc"><p>after values per element tag </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a8f4b3aa6e9bfa0efd2d4f5a0fe4fca73"></a>LOC_AFTER_VPE&#160;</td><td class="fielddoc"><p>after values per element tag </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5aa7a202f58b5346d85fab23d0c3b30a7d"></a>LOC_AFTER_SEQ&#160;</td><td class="fielddoc"><p>after sequential dimension tag </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71aa7a202f58b5346d85fab23d0c3b30a7d"></a>LOC_AFTER_SEQ&#160;</td><td class="fielddoc"><p>after sequential dimension tag </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5ad0c65434b9b95c7d1c09be28f77b9680"></a>LOC_AFTER_STR1&#160;</td><td class="fielddoc"><p>after strided dimension tag </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71ad0c65434b9b95c7d1c09be28f77b9680"></a>LOC_AFTER_STR1&#160;</td><td class="fielddoc"><p>after strided dimension tag </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a87cd5a52ea56e998207b7e52dae3b5d2"></a>LOC_END&#160;</td><td class="fielddoc"><p>at end of file (before DATA_LENGTH tag) </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a87cd5a52ea56e998207b7e52dae3b5d2"></a>LOC_END&#160;</td><td class="fielddoc"><p>at end of file (before DATA_LENGTH tag) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a797e62f6c41237c21afce8135e224ddb"></a>LOC_DEFAULT&#160;</td><td class="fielddoc"><p>default location </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a797e62f6c41237c21afce8135e224ddb"></a>LOC_DEFAULT&#160;</td><td class="fielddoc"><p>default location </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a743a7897a570bc2b9ee9bc7bf4fff0f5a1e77ef102e6b6be5253cc8cbfb7fb0c1"></a>LOC_COUNT&#160;</td><td class="fielddoc"><p>number of defined locations </p>
+<tr><td class="fieldname"><a id="a20c46ee04e1814c72515b2c94b084b71a1e77ef102e6b6be5253cc8cbfb7fb0c1"></a>LOC_COUNT&#160;</td><td class="fielddoc"><p>number of defined locations </p>
 </td></tr>
 </table>
 
@@ -642,7 +642,7 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>float3RasterFilePtr<
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 21 2020 11:57:18 for PAX library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 21 2020 15:53:55 for PAX library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

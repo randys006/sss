@@ -39,15 +39,81 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
 <div class="title">PAX library Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><h1><a class="anchor" id="LICENSE"></a>
+LICENSE</h1>
+<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the GNU General Public License for more details at <a href="https://www.gnu.org/copyleft/gpl.html">https://www.gnu.org/copyleft/gpl.html</a></p>
+<h1><a class="anchor" id="DESCRIPTION"></a>
+DESCRIPTION</h1>
+<p>A single-header-file library containing a C++17 driver for the PAX <br  />
+ (Portable Arbitrary map eXtended) file format.</p>
+<h1><a class="anchor" id="PREREQUISITES"></a>
+PREREQUISITES</h1>
+<p>Compiler having c++17 capability. Examples:</p><ul>
+<li>Visual Studio 2017 (15.9.17)</li>
+<li>gcc 7</li>
+<li>Clang 5 Doxygen 1.8.17 (for rendering documentation)</li>
+</ul>
+<h1><a class="anchor" id="OVERVIEW"></a>
+OVERVIEW</h1>
+<p>PAX was developed for the purpose of having a simple human-readable file format that contains both raster data and metadata. The design is based on the image format pam from netpbm: <a href="https://sourceforge.net/p/netpbm/wiki/Home/">https://sourceforge.net/p/netpbm/wiki/Home/</a></p>
+<p>The fundamental tenets of PAX are listed in the sample file below: </p><pre class="fragment">* P100 : V0.1 : PAX_META_ONLY
+* #
+* # A PAX file consists of a text header containing, in this order:
+* #   - A type description tag
+* #   - Single Linefeed (LF) '\n'
+* #   - Comments and metadata, each terminated by a LF
+* #   - Dimension tags and dimension lengths
+* #   - Binary raster data
+* #
+* # Every line has a type which is defined by the first character on the line:
+* #   - Comment lines begin with a hashtag '#'.
+* #   - Metadata lines begin with a percent symbol '%'.
+* #   - Any other character must be a valid header tag.
+* #
+* # Valid whitespace characters are space, tab, and CR.
+* # Leading whitespace is allowed, but should only be used for column-formatting.
+* # Empty lines are not allowed; there must always be at least once hashtag on each line.
+* #
+* # The rules comprising the PAX design paradigm are:
+* #    - The PAX header must be human-readable, clean, complete, and self-contained. All header tags
+* #      follow a specific syntax. Numeric tag indexes are specified in one of two ways:
+* #        - Tags from 1-20 can be specified using &lt;value&gt; such as first, thirteenth, etc.
+* #        - All tags can be specified using &lt;number&gt;&lt;postfix&gt; such as 1st, 13th, etc.
+* #    - PAX is strongly-typed according to a set of types that is defined internally.
+* #    - The raster consists of a multidimensional array of elements using a generic type system.
+* #        - Each element contains a specified number of values, e.g. X, Y, and Z.
+* #        - Each value contains a specified number of bytes, e.g. 4 for 32-bit int, 8 for double, etc.
+* #        - Pax libraries must decide how to map pax types to language-specific internal types.
+* #      specified number of bytes. The elements are arranged into a specified number of dimensions.
+* #    - PAX avoids using excessive delimiters and markup.
+* #    - PAX allows an unlimited number of dimensions.
+* #        - Language-specific libraries must support a minimum of 2^32 dimensions.
+* #    - PAX allows an unlimited number of elements per dimension.
+* #        - Language-specific libraries must support a minimum of 2^32 elements per dimension.
+* #            - The lone exception to this is the PAX_STRING type, which can omit all dimension tags since
+* #              it only contains a single string by definition.
+* #    - Metadata types include signed and unsigned integers up to 64-bit, single- and double-precision
+* #      floating point, single- and double-precision complex, and simple strings.
+* #        - string metadata are terminated with a LF.
+* #    - Tags and keywords are case-insensitive.
+* #
+* % pi [ double ] = 3.14
+* % getty [string] = Four score and seven years ago...
+* </pre><p>Desired feature list:</p><ul>
+<li>Improve dimension index detection (tags such as '2st' shouldn't work)</li>
+<li>International support </li>
+</ul>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 21 2020 11:57:19 for PAX library by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 21 2020 15:53:55 for PAX library by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>
